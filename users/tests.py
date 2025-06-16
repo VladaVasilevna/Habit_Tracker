@@ -1,4 +1,3 @@
-
 from rest_framework import status
 from rest_framework.reverse import reverse
 from rest_framework.test import APIClient, APITestCase
@@ -49,4 +48,3 @@ class UserAPITestCase(APITestCase):
         response = self.client.delete(url)
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
         self.assertEqual(User.objects.count(), 0)
-
