@@ -29,7 +29,6 @@ INSTALLED_APPS = [
     "django_celery_beat",
     "habits",
     "users",
-
 ]
 
 REST_FRAMEWORK = {
